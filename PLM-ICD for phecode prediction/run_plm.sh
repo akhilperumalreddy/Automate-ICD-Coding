@@ -1,11 +1,8 @@
 cd PLM-ICD-master/src
 epoch='10'
-allcode="../data/mimic3/ALL_ICD_CODES.txt" 
-#'ALL_PHE_CODES.txt' 
-train="../data/mimic3/train_ds_notes_full.csv" 
-#'../data/mimic3/train_ds_full_w_phe.csv'
-dev="../data/mimic3/dev_ds_notes_full.csv" 
-#'../data/mimic3/dev_ds_full_w_phe.csv'
+allcode="../data/mimic3/ALL_PHE_CODES.txt"
+train='../data/mimic3/train_ds_full_w_phe.csv'
+dev='../data/mimic3/dev_ds_full_w_phe.csv'
 test="../data/mimic3/test_ds_notes_full.csv"
 type="icd"
 
