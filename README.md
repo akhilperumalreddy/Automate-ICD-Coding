@@ -1,13 +1,13 @@
 # Automate ICD coding based on discharge summary using Pretrained Language models
-*This is the team based project for the course CS769-Advanced Natural Language Processing in 2023 Spring.* 
+*This is the team based project for the course CS769-Advanced Natural Language Processing in Spring 2023.* 
 
 ## Model Overview
 
-In this project, we present our implementation of a transformer-based model for automatic generation of ICD (International Classification of Diseases) codes using discharge summaries [1]. The model addresses three key challenges faced by existing methods, including a large label space, long input sequences, and domain mismatch between pretraining and fine-tuning. We conducted experiments on the MIMIC (Medical Information Mart for Intensive Care) dataset and achieved similar performance in terms of multiple metrics as reported in the paper. 
+In this project, we implement a transformer-based model for automatic generation of ICD (International Classification of Diseases) codes using discharge summaries [1]. The model addresses three key challenges faced by existing methods, including a large label space, long input sequences, and domain mismatch between pretraining and fine-tuning. We conducted experiments on the MIMIC (Medical Information Mart for Intensive Care) dataset and achieved similar performance in terms of multiple metrics as reported in the paper. 
 
-More importantly, we explored several variations to this method, including 
-* further pretraining using ICD code descriptions in code dictionaries
-* laveraging the hierarchical taxonomy of ICD codes to improve the code automation accuracy.
+More importantly, we explored and experimented with several variations of this method, including 
+* further pretraining using ICD code descriptions in code dictionaries;
+* laveraging the hierarchical taxonomy of ICD codes to guide the code automation.
   
 Our findings demonstrate the effectiveness of leveraging pre-trained language models for automatic ICD coding and offer insights for future research in this area. For details, please referer to our [presentation slides](https://github.com/akhilperumalreddy/Automate-ICD-Coding/blob/main/Presentation_slides.pdf).
 
